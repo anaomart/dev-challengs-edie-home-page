@@ -40,11 +40,17 @@ font-family: 'Poppins', sans-serif;
 color: #4F4F4F;
 font-weight: 400;
 font-size: 1.8rem;
-line-height: 2.7rem;
-width: 350px;
-margin:2rem 0 ;
+line-height: 2.7rem;width: 350px;
 
+margin:2rem 0 ;
 }
+@media (max-width : 768px) {
+    p{
+        width: 250px;
+
+    }
+}
+
 span {
     
 font-family: 'Poppins', sans-serif;

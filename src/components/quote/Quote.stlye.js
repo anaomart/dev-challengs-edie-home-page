@@ -34,5 +34,10 @@ font-size: 1.8rem;
 line-height: 2.7rem;
 color: #828282;
     }
+    @media (max-width : 768px) {
+        q {
+            font-size: 2.4rem;
+        }
+    }
 
 `

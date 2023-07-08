@@ -19,6 +19,15 @@ const GlobalStyle = createGlobalStyle `
   }
 
   img {max-width:100%}
+
+  html{
+   overflow-x:hidden;
+  }
+  @media (max-width: 768px) {
+   root {
+      font-size:12px;
+   }
+  }
   
   `
 
